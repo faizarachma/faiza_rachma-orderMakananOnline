@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="HqflfSQn3xEzHywxVqiV" name="Page-1">
-        <mxGraphModel dx="867" dy="241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1300" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -80,6 +80,12 @@
                 </mxCell>
                 <mxCell id="51" value="Print listMakananTersedia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="85" y="530" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="jika i = 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="395" y="350" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="jika i &amp;gt; 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="490" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
