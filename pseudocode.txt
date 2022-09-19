@@ -1,0 +1,10 @@
+pseudocode Pemesanan Makanan Online 
+
+Deklarasi :
+STRING tampil_menu, list_menuTersedia, total, pesanan, detail_Pesanan
+WRITE AND READ tampil_menu
+    STORE "id"
+    STORE "nama"
+    STORE "Stok"
+    STORE "harga"
+PRINT " tampil_menu "
