@@ -8,3 +8,13 @@ WRITE AND READ tampil_menu
     STORE "Stok"
     STORE "harga"
 PRINT " tampil_menu "
+
+READ list_menuTersedia
+  IF "stok" > 0
+    PRINT "List Menu Tersedia"
+    TRUE
+    pesanan()
+
+  ELSE "stok" = 0 
+    PRINT "Menu Kosong"
+    list_menu()
