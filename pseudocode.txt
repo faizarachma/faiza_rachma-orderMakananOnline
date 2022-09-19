@@ -18,3 +18,24 @@ READ list_menuTersedia
   ELSE "stok" = 0 
     PRINT "Menu Kosong"
     list_menu()
+
+
+WRITE AND READ jumlah with pesanan
+WRITE AND READ harga with pesanan
+WRITE AND READ  total with pesanan
+    STORE total with CALCULATE "jumlah" * "harga" 
+    PRINT "total"
+
+WRITE AND READ bayar with payment
+WRITE AND READ total with payment
+WRITE AND READ kembali with payment
+     STORE kembali with CALCULATE "total" - "bayar"
+     PRINT "kembali"
+
+WRITE AND READ pesanan with detail_Pesanan
+WRITE AND READ total with detail_Pesanan
+    PRINT "pesanan"
+    PRINT "total"
+
+END PROGRAM
+
